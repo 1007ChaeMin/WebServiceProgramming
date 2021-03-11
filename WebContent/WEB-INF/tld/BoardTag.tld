@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javaee:taglib version="2.1" xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd ">
+  <javaee:tlib-version>1.0</javaee:tlib-version>
+  <javaee:short-name>BoardTag</javaee:short-name>
+  <javaee:tag>
+    <javaee:name>board</javaee:name>
+    <javaee:tag-class>kpu.web.board.business.BoardTagHandler</javaee:tag-class>
+    <javaee:body-content>empty</javaee:body-content>
+    
+    <javaee:attribute>
+      <javaee:name>userSession</javaee:name>
+      <javaee:required>false</javaee:required>
+      <javaee:rtexprvalue>true</javaee:rtexprvalue>
+    </javaee:attribute>
+    
+    <javaee:attribute>
+      <javaee:name>menu</javaee:name>
+      <javaee:required>false</javaee:required>
+      <javaee:rtexprvalue>true</javaee:rtexprvalue>
+    </javaee:attribute>
+    
+    <javaee:attribute>
+      <javaee:name>bbsConfigFK</javaee:name>
+      <javaee:required>false</javaee:required>
+      <javaee:rtexprvalue>true</javaee:rtexprvalue>
+    </javaee:attribute>
+
+    <javaee:attribute>
+      <javaee:name>currentPage</javaee:name>
+      <javaee:required>false</javaee:required>
+      <javaee:rtexprvalue>true</javaee:rtexprvalue>
+    </javaee:attribute>
+  </javaee:tag>
+</javaee:taglib>
